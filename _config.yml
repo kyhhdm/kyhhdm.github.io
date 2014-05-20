@@ -115,3 +115,7 @@ site :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+  # Upgrade markdown interpreter
+  # https://help.github.com/articles/migrating-your-pages-site-from-maruku
+  # 2014-5-20
+  markdown: kramdown  
