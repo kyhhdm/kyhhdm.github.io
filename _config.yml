@@ -26,6 +26,8 @@ author :
 # 博客地址，如果没有自定义CNAME，写用户名即可
 production_url : kyhhdm
 
+markdown: kramdown
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 # 我使用我的id作为了这个属性的属性名
 # 如果你想修改，最好使用替换工具，把所有文件中的"site"，替换为你想要的名字
