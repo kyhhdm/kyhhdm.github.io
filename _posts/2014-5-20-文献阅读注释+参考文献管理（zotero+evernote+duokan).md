@@ -34,7 +34,7 @@ icon: file-alt
 现在，有了一个完整的论文阅读，笔记，参考文献管理工具链了： zotero+zotfile -> baiduyun -> duokan reader ->evernote -> zotero. :)
 
 
->[1]: http://www.zotero.org/ "zotero project"
+[1]: http://www.zotero.org/ "zotero project"
 [2]: http://home.badc.rl.ac.uk/lawrence/blog/2013/09/11/zotero,_zandy,_greader,_evernote,_and_me "zotero, zandy, greader, evernote and me"
 [3]: http://zotfile.com/ "zotfile"
 [4]: https://play.google.com/store/apps/details?id=com.gimranov.zandy.app&hl=en "zandy"
