@@ -24,14 +24,8 @@ When I frequently access this site, [Lemur Project and Indri Search Engine Wiki]
 
 1. first try  
 
-~~~
+~~~ c
 wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
-~~~
-
-~~~ ruby
-def what?
-  42
-end
 ~~~
 
     follow directory works fine!  
@@ -71,9 +65,9 @@ end
 
 3. at last
 
-    ~~~
-    wget -r -p -E -c -nd -k --max-redirect=3 -R history,feed*,*version=* -I /p/lemur/wiki -X /p/lemur/wiki/browse_pages,/p/lemur/wiki/search,/p/lemur/wiki/browse_tags -o lemur.log http://sourceforge.net/p/lemur/wiki/Home/
-    ~~~
+~~~ sh
+wget -r -p -E -c -nd -k --max-redirect=3 -R history,feed*,*version=* -I /p/lemur/wiki -X /p/lemur/wiki/browse_pages,/p/lemur/wiki/search,/p/lemur/wiki/browse_tags -o lemur.log http://sourceforge.net/p/lemur/wiki/Home/
+~~~
 
     this works fine~
 
