@@ -24,9 +24,15 @@ When I frequently access this site, [Lemur Project and Indri Search Engine Wiki]
 
 1. first try  
 
-    ~~~
-    wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
-    ~~~
+~~~
+wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
+~~~
+
+~~~ ruby
+def what?
+  42
+end
+~~~
 
     follow directory works fine!  
     but wiki contents has too much versions, History, Feeds
