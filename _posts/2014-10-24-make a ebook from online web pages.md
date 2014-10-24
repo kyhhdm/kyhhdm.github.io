@@ -9,7 +9,8 @@ group: archive
 icon: file-alt
 ---
 {% include site/setup %}
-<link rel="stylesheet" href="/css/pygments.css">
+{% include pygments.css %>
+{% include css/pygments.css %>
 
 Make a Ebook from Online Web Pages
 ==================================
