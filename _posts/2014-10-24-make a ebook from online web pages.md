@@ -24,9 +24,9 @@ When I frequently access this site, [Lemur Project and Indri Search Engine Wiki]
 
 1. first try  
 
-~~~ c
+``` c
 wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
-~~~
+```
 
     follow directory works fine!  
     but wiki contents has too much versions, History, Feeds
@@ -65,9 +65,9 @@ wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
 
 3. at last
 
-~~~ sh
+``` sh
 wget -r -p -E -c -nd -k --max-redirect=3 -R history,feed*,*version=* -I /p/lemur/wiki -X /p/lemur/wiki/browse_pages,/p/lemur/wiki/search,/p/lemur/wiki/browse_tags -o lemur.log http://sourceforge.net/p/lemur/wiki/Home/
-~~~
+```
 
     this works fine~
 
