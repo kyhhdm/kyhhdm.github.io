@@ -26,7 +26,7 @@ author :
 # 博客地址，如果没有自定义CNAME，写用户名即可
 production_url : kyhhdm
 
-markdown: Maruku
+markdown: kramdown
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 # 我使用我的id作为了这个属性的属性名
@@ -120,6 +120,4 @@ site :
   # Upgrade markdown interpreter
   # https://help.github.com/articles/migrating-your-pages-site-from-maruku
   # 2014-5-20
-  #markdown: kramdown  
-
-  markdown: Maruku
+  markdown: kramdown  
