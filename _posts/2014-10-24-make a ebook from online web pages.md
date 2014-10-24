@@ -27,17 +27,7 @@ When I frequently access this site, [Lemur Project and Indri Search Engine Wiki]
 wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
 ```
 
-{% highlight c %}
-/* hello world demo */
-#include <stdio.h>
-int main(int argc, char **argv)
-{
-        printf("Hello, World!\n");
-        return 0;
-}
-{% endhighlight %}
- 
-    follow directory works fine!  
+follow directory works fine!  
     but wiki contents has too much versions, History, Feeds
 
 2. check the log  
@@ -78,7 +68,7 @@ int main(int argc, char **argv)
 wget -r -p -E -c -nd -k --max-redirect=3 -R history,feed*,*version=* -I /p/lemur/wiki -X /p/lemur/wiki/browse_pages,/p/lemur/wiki/search,/p/lemur/wiki/browse_tags -o lemur.log http://sourceforge.net/p/lemur/wiki/Home/
 ```
 
-    this works fine~
+this works fine~
 
 ## 2. ebook maker
 1. Publish online.  
