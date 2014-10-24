@@ -46,11 +46,6 @@ html, body, div.wrapper {
 }
 
 /* 自定义高亮样式 */
-/*.highlight pre,code {
-  font-size: 15px;
-  background-color: #002B36;
-  color:#93A1A1;
-}*/
 
 blockquote {
   font-size: 15px;
