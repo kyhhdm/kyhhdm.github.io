@@ -28,6 +28,16 @@ When I frequently access this site, [Lemur Project and Indri Search Engine Wiki]
 wget -r -p -k -I /p/lemur/wiki http://sourceforge.net/p/lemur/wiki/Home/
 ```
 
+{% highlight c %}
+/* hello world demo */
+#include <stdio.h>
+int main(int argc, char **argv)
+{
+        printf("Hello, World!\n");
+        return 0;
+}
+{% endhighlight %}
+ 
     follow directory works fine!  
     but wiki contents has too much versions, History, Feeds
 
